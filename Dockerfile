@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-alpine
 
 
 # working directory
-WORKDIR /app
+WORKDIR /app.
 
 # Copy source code into the container
 COPY src/Main.java /app/Main.java
